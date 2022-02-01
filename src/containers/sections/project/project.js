@@ -50,7 +50,9 @@ const Project = () => {
             <p>
               O aplitivo está passando pela fase de design e desenvolvimento,
               não temos uma data prevista para o lançamento, manteremos as
-              atualizações do projeto no <a>Instagram</a> e <a>Linkedin</a>
+              atualizações do projeto no{' '}
+              <span className="socials-name">Instagram</span> e{' '}
+              <span className="socials-name">Linkedin</span>
             </p>
             <div className="socials">
               <FaLinkedinIn size={'2.5em'} />

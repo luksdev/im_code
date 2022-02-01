@@ -70,7 +70,8 @@ export const Container = styled.main`
     font-weight: 600;
   }
 
-  .contentTexts a {
+  .contentTexts .socials-name {
+    font-size: 18px;
     text-decoration: none;
     color: #86d1d1;
   }
