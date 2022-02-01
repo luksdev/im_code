@@ -50,8 +50,7 @@ const Project = () => {
             <p>
               O aplitivo está passando pela fase de design e desenvolvimento,
               não temos uma data prevista para o lançamento, manteremos as
-              atualizações do projeto no <a href="">Instagram</a> e{' '}
-              <a href="">Linkedin</a>
+              atualizações do projeto no <a>Instagram</a> e <a>Linkedin</a>
             </p>
             <div className="socials">
               <FaLinkedinIn size={'2.5em'} />
@@ -65,9 +64,11 @@ const Project = () => {
 
       <div className="fourMasters">
         <div className="left">
-          <div className="contentText"></div>
+          <div className="contentTexts-left"></div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="contentTexts-right"></div>;
+        </div>
       </div>
     </s.Container>
   );
