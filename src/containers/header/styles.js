@@ -21,8 +21,8 @@ export const Container = styled.main`
   .nav-item {
     cursor: pointer;
     &:hover {
-      padding-bottom: 5px;
-      border-bottom: 2px solid #7bcccc;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #7bcccc;
     }
   }
 `;

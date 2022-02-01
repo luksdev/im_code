@@ -77,6 +77,7 @@ export const Container = styled.main`
     text-align: start;
     justify-content: space-around;
     color: #ffffff;
+    margin-bottom: 1rem;
   }
 
   .follows span {
@@ -113,7 +114,7 @@ export const Container = styled.main`
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
   .donate span {
