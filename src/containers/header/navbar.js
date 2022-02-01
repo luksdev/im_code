@@ -13,12 +13,24 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-item">
+            <Link
+              to="project"
+              className="nav-item"
+              spy={true}
+              smooth={100}
+              duration={500}
+            >
               Projeto
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-item">
+            <Link
+              to="contact"
+              className="nav-item"
+              spy={true}
+              smooth={100}
+              duration={500}
+            >
               Contato
             </Link>
           </li>
