@@ -65,11 +65,67 @@ const Project = () => {
       {/* Os 4 mestres */}
 
       <div className="fourMasters">
-        <div className="left">
-          <div className="contentTexts-left"></div>
+        <div className="left-masters">
+          <div className="contentTexts-left">
+            <span>
+              Os 4 <br />
+              mestres.
+            </span>
+            <p>As funcionalidades mais simples e fáceis de usar.</p>
+          </div>
         </div>
-        <div className="right">
-          <div className="contentTexts-right"></div>;
+        <div className="right-masters">
+          <div className="contentTexts-right">
+            <ul>
+              <li>
+                <div className="num-title">
+                  <span className="number-list">01</span>{' '}
+                  <span className="title-list">Cadastrar o colaborador.</span>
+                </div>
+                <p>
+                  Esta função tem como objetivo salvar dados do colaborador,
+                  como: nome completo, setor e função. E há um termo em que o
+                  colaborador deverá aceitar, esse termo destaca as obrigações
+                  do empregador e do empregado.
+                </p>
+              </li>
+              <li>
+                <div className="num-title">
+                  <span className="number-list">02</span>{' '}
+                  <span className="title-list">Adicionar EPI.</span>
+                </div>
+                <p>
+                  Aqui, você seguirá todas as informações obrigatórias para
+                  registar o EPI do seu colaborador por exemplo: Descrição do
+                  equipamento, quantidade, certificado de aprovação, data em que
+                  o EPI foi solicitado, fabricante e motivos para entrega e
+                  recebimento.
+                </p>
+              </li>
+              <li>
+                <div className="num-title">
+                  <span className="number-list">03</span>{' '}
+                  <span className="title-list">Consultar fichas.</span>
+                </div>
+                <p>
+                  Destaque as fichas de cada colaborador através de uma busca
+                  simples pelo nome completo ou CPF.
+                </p>
+              </li>
+              <li>
+                <div className="num-title">
+                  <span className="number-list">04</span>{' '}
+                  <span className="title-list">Registrar equipamento.</span>
+                </div>
+                <p>
+                  E por fim o tão amado registro de equipamento. Aqui você vai
+                  descrever qual o nome do equipamento, certificado de aprovação
+                  fabricante e a validade do equipamento.
+                </p>
+              </li>
+            </ul>
+          </div>
+          ;
         </div>
       </div>
     </s.Container>
